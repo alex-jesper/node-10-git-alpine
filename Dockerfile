@@ -9,4 +9,4 @@ RUN apk add --no-cache \
 RUN npm i -g npm@6.13.6
 
 ENTRYPOINT []
-CMD []
+CMD ["/bin/bash"]
